@@ -56,11 +56,11 @@ public class StartupMenu {
 		public void actionPerformed (ActionEvent event)
 		{
 			if (event.getSource() == SelectButton[0])
-				new Minesweeper(10, 12, 12);
+				new Minesweeper(14, 10, 10);
 			else if (event.getSource() == SelectButton[1])
-				new Minesweeper(16, 20, 24);
+				new Minesweeper(20, 16, 24);
 			else if (event.getSource() == SelectButton[2])
-				new Minesweeper(24, 20, 52);
+				new Minesweeper(30, 16, 52);
 			if (frame.isVisible() == true)
 				frame.setVisible(false);
 		}
